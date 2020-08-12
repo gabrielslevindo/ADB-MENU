@@ -1,0 +1,77 @@
+/***************GERAL E BODY ****************/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+
+   font-family: "Trebuchet MS" , helvetica , sans-serif;
+   background: #DCD9D9;
+   
+}
+/***************** IDS DE CONFIGURAÇÃO DE LAYOUT MENU**********************/
+
+#conteiner {
+
+  width: 100% 720px;
+  margin: 0 auto;
+  background: #fff;
+ 
+
+}
+#topo {
+   
+  height:150px;
+  background: #202020;
+  padding-top: 25px;
+  
+
+
+
+}
+/* NAVEGAÇÃO */
+
+ ul {
+
+	  margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#topo ul {
+
+  margin:-85px auto auto 250px;
+  background: #202020;
+  float: left;
+
+}
+#topo ul li {
+
+ float: left;
+
+}
+#topo ul a {
+
+text-decoration: none;
+padding: 0 4em;
+line-height: 3em;
+color: #fff;
+display: block;
+
+}
+#topo ul a:hover {
+
+  color: #202020;
+  background: #fff;
+}
+
+/**********************FORMATAÇÕES *************************/
+
+.logo {
+
+  width:152px; 
+  height:100px;
+  background: url(../Imagem/logo.png) no-repeat left;
+  background-size: 95px;
+  margin: 10px 55px ;
+  text-indent: -500000px;
+}
